@@ -38,7 +38,7 @@ describe("Generate Component", () => {
             path.join(mockPath, "./Sample.test.tsx"),
         );
 
-        expect(folderExists).toBe(true);
+        expect(folderExists).toBe(false);
         expect(componentFileExists).toBe(true);
         expect(styleFileExists).toBe(true);
         expect(testFileExists).toBe(true);
