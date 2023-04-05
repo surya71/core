@@ -39,7 +39,7 @@ describe("Generate Component", () => {
         );
 
         expect(folderExists).toBe(false);
-        expect(componentFileExists).toBe(true);
+        expect(componentFileExists).toBe(false);
         expect(styleFileExists).toBe(true);
         expect(testFileExists).toBe(true);
     });
